@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/old_transaction"
+            android:icon="@drawable/ic_old_transaction"
+            android:title="Old Transaction" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/terms_and_conditions"
+            android:icon="@drawable/ic_terms"
+            android:title="Terms and Conditions"/>
+        <item
+            android:id="@+id/feedback_form"
+            android:icon="@drawable/ic_feedback_form"
+            android:title="Feedback Form" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>
